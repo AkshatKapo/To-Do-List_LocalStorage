@@ -1,0 +1,190 @@
+
+*{
+
+	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body { 
+
+    
+
+     background:cornsilk;
+	 color: #313154;
+     
+    
+}
+
+input:not([type="radio"]):not([type="checkbox"]), button {
+	appearance: none;
+	border: none;
+	outline: none;
+	background: none;
+	cursor: initial;
+}
+
+section {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+
+
+.greeting .title {
+	display: flex;
+}
+
+.greeting .title input {
+	margin-left: 0.5rem;
+	flex: 1 1 0%;
+	min-width: 2rem;
+	
+	border-radius: 0.5rem;
+	padding-left: 0.5rem;
+	background: none;
+	
+}
+
+.greeting .title, 
+.greeting .title input {
+	color:darkslategrey;
+	font-size: 3rem;
+	font-weight: 700;
+}
+
+
+h2 {
+
+
+     font-size: 30px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: palevioletred;
+      margin-right: 30px;
+}
+
+
+
+#data {
+
+    display: block;
+	width: 100%;
+	
+    
+	font-size: 1.125rem;
+	padding: 1rem 1.5rem;
+	color: gray;
+	background-color: #FFF;
+	border-radius: 0.5rem;
+	box-shadow: var(--shadow);
+	margin-bottom: 1.5rem;
+}
+
+
+.addd input[type="submit"]{
+
+    display: block;
+	width: 100%;
+    
+	font-size: 1.125rem;
+	padding: 1rem 1.5rem;
+	color: whitesmoke;
+	background-color:#EA40A4;
+	border-radius: 0.5rem;
+	box-shadow: var(--shadow);
+	margin-bottom: 1.5rem;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	transition: 0.2s ease-out;
+       
+       
+}
+.addd input[type="submit"]:hover{
+
+	opacity: 0.75;
+}
+.todo-list1 .list {
+
+	margin: 1rem  0;
+}
+
+.todo-list .todo-item{
+
+	display: flex;
+    align-items: center;
+    background-color: #FFF;
+	margin-top: 0.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+    margin-bottom: 1rem;
+
+
+
+}
+.todo-item .todo-content {
+
+	 flex:  1 1 0%;
+	 margin-left: 0.5rem;
+}
+.todo-item .todo-content input {
+
+	 font-size: 1.5rem;
+}
+
+.todo-item .actions {
+
+	display: flex;
+	align-items: center;
+
+
+}
+.todo-item .actions  button {
+
+	display: block;
+    padding: 1rem;
+	margin: 0.5rem;
+    border-radius: 10Px;
+	background-color: darkgray;
+    
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+	 
+}
+
+ .Checkbox{
+
+	     
+		width: 1.5rem;
+	
+		height: 5rem;
+
+}
+
+.Checkbox  input[type="checkbox"]{
+
+
+	background-color: #313154;
+
+
+
+	   
+}
+
+.todo-item.done .todo-content input{
+
+	text-decoration: line-through;
+	color:black
+}
+
+
+
+
+
+
+
+
+
