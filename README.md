@@ -1,6 +1,6 @@
 # To-Do-List_LocalStorage
 
-I designed a TO-DO list to learn more about Javascript, it works as a same To-Do list i designed before, but now I change designing because I wnated to learn more about designing and the data that user put does not disappear when page is reloaded.
+I designed a TO-DO list to learn more about Javascript, it works as a same To-Do list i designed before, but now I change designing because I wanted to learn more about designing and the data that user put does not disappear when page is reloaded.
 
  To-Do list takes users name and store it in the local storage
 
@@ -22,5 +22,11 @@ User can also add multiple task
 
 
 When user is done the task, to know that task is done. The user can select the checkbox or click deletet button to remove it.
+
+![tosolist5](https://user-images.githubusercontent.com/94620098/212078504-af0d9110-106b-4555-a39a-9c9f5bd91b17.jpg)
+
+The data that user put is stored in the local storage, so that when user reloads the page, the data that user entered before still remain on the screen.
+
+
 
 
