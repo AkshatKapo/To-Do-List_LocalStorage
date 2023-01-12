@@ -6,7 +6,7 @@ I designed a TO-DO list to learn more about Javascript, it works as a same To-Do
 
 ![todlost1](https://user-images.githubusercontent.com/94620098/212074214-028355fc-715d-495a-9c17-e82f3df4fa06.jpg)
 
-Then user can put the tasks, he wanted to do like Play games 
+Then user can add the tasks, like Play games 
 
 ![image](https://user-images.githubusercontent.com/94620098/212075290-5c368546-ee73-4f81-aa59-c131a9e4d3b3.png)
 
@@ -26,6 +26,10 @@ When user is done the task, to know that task is done. The user can select the c
 ![tosolist5](https://user-images.githubusercontent.com/94620098/212078504-af0d9110-106b-4555-a39a-9c9f5bd91b17.jpg)
 
 The data that user put is stored in the local storage, so that when user reloads the page, the data that user entered before still remain on the screen.
+
+The data in the local storage is stored as objects.
+
+![tosollist6](https://user-images.githubusercontent.com/94620098/212079312-46fa9930-87ab-4bab-acc1-cee85b5f2ca1.jpg)
 
 
 
